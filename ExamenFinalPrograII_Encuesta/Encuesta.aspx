@@ -14,7 +14,7 @@
     <br />
     <br />
     <asp:Label ID="labelCorreo" runat="server" Text="Correo"></asp:Label>
-    <asp:TextBox ID="TextBoxCorreo" runat="server"></asp:TextBox>
+    <asp:TextBox type="email" class="form-control" ID="TextBoxCorreo" runat="server"></asp:TextBox>
     <br />
     <br />
     <asp:Label ID="labelPartido" runat="server" Text="Partido"></asp:Label>
@@ -26,5 +26,5 @@
     </asp:DropDownList>
     <br />
     <br />
-    <asp:Button ID="ButtonSalvar" runat="server" Text="Salvar Encuesta" OnClick="ButtonSalvar_Click" />
+    <asp:Button  type="button" class="btn btn-success" ID="ButtonSalvar" runat="server" Text="Salvar Encuesta" OnClick="ButtonSalvar_Click" />
 </asp:Content>

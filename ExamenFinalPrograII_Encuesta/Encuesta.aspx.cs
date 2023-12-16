@@ -9,9 +9,10 @@ namespace ExamenFinalPrograII_Encuesta
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+        int cont = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            labelID.Text = "Encuesta #0";
         }
 
         public void alertas(String texto)
@@ -43,6 +44,8 @@ namespace ExamenFinalPrograII_Encuesta
             TextBoxEdad.Text = "";
             TextBoxCorreo.Text = "";
             DDLPartido.SelectedIndex = 0;
+            cont++;
+            labelID.Text = $"Encuesta #{cont}";
         }
     }
 }
