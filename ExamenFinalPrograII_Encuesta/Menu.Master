@@ -17,7 +17,7 @@
         <h1>Menú</h1>
 
         <nav>
-	        <a href="Encuesta.apsx">Encuesta</a>
+	        <a href="Encuesta.aspx">Encuesta</a>
 	        <a href="Reporte.aspx">Reporte</a>
 	        <div class="animation start-home"></div>
         </nav>
